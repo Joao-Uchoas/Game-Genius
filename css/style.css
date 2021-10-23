@@ -269,11 +269,11 @@ body {
 	padding-left: .3rem;
 }
 
-.gui-counter-on {
+.gui__counter--on {
 	color: var(--clr-counter-on);
 }
 
-.gui-led {
+.gui__led {
 	background-color: #32050C;
 	margin-left: 1rem;
 	margin-bottom: .5rem;
@@ -295,4 +295,10 @@ footer {
 	text-align: center;
 	margin-top: 5rem;
 	font-size: 1rem;
+}
+
+@media (max-width: 600px){
+	html {
+		font-size: 45%;
+	}
 }
