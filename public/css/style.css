@@ -1,0 +1,164 @@
+body {
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/nasty_fabric.png);
+
+}
+
+.toggle {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.botao {
+  font-size: 2em;
+  background-color: lightgray;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+}
+
+#switches {
+  position: absolute;
+  margin-left: 22px;
+  margin-top: 110px;
+}
+
+.texto_ps {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 152px;
+}
+
+.texto_ps span:last-child {
+  padding-left: 137px;
+}
+
+.texto_r {
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 235px;
+}
+
+#titulo {
+  position: absolute;
+  font-size: 40px;
+  margin-left: 66px;
+  margin-top: 45px;
+}
+
+#rodada {
+  position: absolute;
+  background: #330000;
+  color: red;
+  font-family: courier;
+  font-size: 30px;
+  height: 32px;
+  width: 65px;
+  margin-left: 110px;
+  margin-top: 192px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+#outer-circle {
+  background: #385a94;
+  border-radius: 50%;
+  height: 700px;
+  width: 700px;
+  position: relative;
+  border-style: solid;
+  border-width: 10px;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: 8px 8px 15px 5px #888888;
+}
+
+#botao-no {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 350px 0 0 0;
+  -moz-border-radius: 350px 0 0 0;
+  -webkit-border-radius: 350px 0 0 0;
+  background: #004b00;
+  top: 50%;
+  left: 50%;
+  margin: -350px 0px 0px -350px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#botao-ne {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 0 350px 0 0;
+  -moz-border-radius: 0 350px 0 0;
+  -webkit-border-radius: 0 350px 0 0;
+  background: #4b0000;
+  top: 50%;
+  left: 50%;
+  margin: -350px 0px 0px 0px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#botao-so {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 0 0 0 350px;
+  -moz-border-radius: 0 0 0 350px;
+  -webkit-border-radius: 0 0 0 350px;
+  background: #938a0c;
+  top: 50%;
+  left: 50%;
+  margin: 0px -350px 0px -350px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#botao-se {
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  border-radius: 0 0 350px 0;
+  -moz-border-radius: 0 0 350px 0;
+  -webkit-border-radius: 0 0 350px 0;
+  background: #00004b;
+  top: 50%;
+  left: 50%;
+  margin: 0px 0px -350px 0px;
+  border-style: solid;
+  border-width: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#circulo-interno {
+  position: absolute;
+  background: grey;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-width: 10px;
+  top: 50%;
+  left: 50%;
+  margin: -155px 0px 0px -155px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+

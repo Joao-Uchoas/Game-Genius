@@ -1,0 +1,9 @@
+{
+    "name": "game-genius",
+    "version": "0.0.1",
+    "description": "jogo pa6",
+    "dependencies": {
+        "express": "^4.17.1",
+        "socket.io": "^4.4.0"
+    }
+}
