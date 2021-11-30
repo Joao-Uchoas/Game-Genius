@@ -74,12 +74,12 @@ function play() {
 function check() {
   if (sequenciaJogada[sequenciaJogada.length - 1] !== sequencia[sequenciaJogada.length - 1]){
     acerto = false;
+    derrota();
   }  
   
   if (sequenciaJogada.length === 2 && acerto && !dificuldade || sequenciaJogada.length === 3 && acerto && dificuldade) {
     vitoria();
   }
-
 
   if (acerto == false) {
     flashColor();
@@ -248,6 +248,13 @@ function vitoria() {
   window.location.href = "vitoria.html";
   ligar = false;
   ganhou = true;
+}
+
+function derrota() {
+  flashColor();
+  window.location.href = "derrota.html";
+  ligar = false;
+  ganhou = false;
 }
 
 

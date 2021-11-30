@@ -165,22 +165,45 @@ input[type=checkbox] {
 .img{
   height: 300px;
   width: 300px;
-  border-style: solid;
-  border-width: 10px;
   top: 50%;
   left: 50%;
   margin: center;
-  background-image: url('/Images/pixelSpace.jpg');
 }
 
 .imgDefeat{
   height: 300px;
   width: 300px;
-  border-style: solid;
-  border-width: 10px;
   top: 50%;
   left: 50%;
   margin: center;
-  background-image: url('/Images/pixelDesert.jpg');
+}
+
+.winBody{
+  background-image: url('/Images/pixelSpace.jpg');
+}
+
+.winText{
+  color: white;
+  font-style: italic;
+  font-weight: 700;
+  margin-left: 470px;
+  margin-top: -150px;
+  font-size: 100px;
+}
+
+.defeatText{
+  color: black;
+  font-style: italic;
+  font-weight: 700;
+  margin-left: 470px;
+  margin-top: -150px;
+  font-size: 100px;
+}
+
+.defeatBody{
+  height: 200px;
+  background-image: url('/Images/nuvem.png');
+  background-size: cover;
+  color: #000; text-shadow: 1px 1px 0 #fff;
 }
 
