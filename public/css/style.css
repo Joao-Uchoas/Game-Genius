@@ -162,3 +162,25 @@ input[type=checkbox] {
   -webkit-box-sizing: border-box;
 }
 
+.img{
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-width: 10px;
+  top: 50%;
+  left: 50%;
+  margin: center;
+  background-image: url('/Images/pixelSpace.jpg');
+}
+
+.imgDefeat{
+  height: 300px;
+  width: 300px;
+  border-style: solid;
+  border-width: 10px;
+  top: 50%;
+  left: 50%;
+  margin: center;
+  background-image: url('/Images/pixelDesert.jpg');
+}
+
