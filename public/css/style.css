@@ -207,3 +207,21 @@ input[type=checkbox] {
   color: #000; text-shadow: 1px 1px 0 #fff;
 }
 
+.jogarNovamenteDerrotaBtn{
+  height: 50px;
+  border-radius: 10%;
+  background-color: #000;
+  color: #fff;
+  margin-left: 650px;
+  margin-top: 50px;
+}
+
+.jogarNovamenteVitoriaBtn{
+  height: 50px;
+  border-radius: 10%;
+  background-color: #fff;
+  color: black;
+  margin-left: 650px;
+  margin-top: 50px;
+}
+

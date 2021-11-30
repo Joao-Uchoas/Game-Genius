@@ -20,6 +20,7 @@ const botao_se = document.querySelector("#botao-se");
 const botaoDificuldade = document.querySelector("#dificuldade");
 const botaoLigar = document.querySelector("#ligar");
 const botaoIniciar = document.querySelector("#iniciar");
+const botaoJogarNovamente = document.querySelector("#jogarNovamenteBtn")
 
 
 
